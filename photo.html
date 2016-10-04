@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Заголовок документа</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="jquery-2.2.3.js"></script>
+        <script type="text/javascript" src="photo.js"></script>
+	</head>
+    <body> 
+        <div class="photo imgCenter">
+            <a class="zoom" href="photo1.jpg"> <img id="imgPlus" src="photo1.jpg"></a><br />
+            <a class="zoom" href="photo2.jpg"> <img id="imgPlus" src="photo2.jpg"></a><br />
+            <a class="zoom" href="photo3.jpg"> <img id="imgPlus" src="photo3.jpg"></a><br />
+            <a class="zoom" href="photo4.jpg"> <img id="imgPlus" src="photo4.jpg"></a><br />
+            <a class="zoom" href="photo5.jpg"> <img id="imgPlus" src="photo5.jpg"></a>
+        </div>
+        <div id="zoomConteiner">
+           <img class="screen" src="photo5.jpg">
+           <a href="#" class="close"><img class="cclose" alt="x" src="close.png"></a>
+           <a href="#" class="prev"><img class="left" alt="<" src="left.png"></a>
+           <a href="#" class="next"><img class="right" alt=">" src="right.png"></a>
+        </div>
+    </body>
+</html>
+-добавить кнопки закрыть и пролистать + обработка
+-извенить размер контейнера

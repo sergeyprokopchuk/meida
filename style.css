@@ -1,0 +1,49 @@
+* {
+margin:0;
+padding:0;
+}
+
+body {
+background: white;
+}
+img {
+width: 500px; 
+height: 250px; 
+margin-top: 0px;
+text-align: center;
+}
+.imgCenter {
+text-align:center; 
+}
+
+#zoomConteiner {
+    position: fixed;
+    width: 90%;
+    height: 90%;
+    display: none;
+}
+#zoomConteiner .screen {
+    width: 100%;
+    height: auto;
+}
+.cclose {
+    position: absolute;
+    bottom: 96%;
+    left: 97%;
+    height: 18px;
+    width: 18px;
+}
+.right {
+    position: absolute;
+    left: 97%;
+    top: 50%;
+    height: 18px;
+    width: 18px;
+}
+.left {
+    position: absolute;
+    right: 97%;
+    top: 50%;
+    height: 18px;
+    width: 18px;
+}
